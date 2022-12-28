@@ -24,8 +24,8 @@ time.sleep(1)
 #click_submit = driver.findElement(By.xpath("//div[@class='BHzsHc']")).click()
 
 #fill google account email
-username = "anilhakim.biz@gmail.com"
-password = "AQILAanil230811"
+username = " "
+password = " "
 
 #automated fill in email and password
 driver.find_element("xpath", "//input[@class='whsOnd zHQkBf']").send_keys(username)
